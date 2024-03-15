@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+/* header hissesi */
+
+header {
+    width: 100%;
+    padding: 15px;
+    background-color: orange;
+}
+
+.onionprogramText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+nav ul li {
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+nav ul li:hover {
+    color: aqua;
+}
+
+
+button {
+    padding: 30px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color:black;
+    cursor: pointer;
+    color: white;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+/* main hissesi */
+
+#mains {
+    background-image: url(./analoo.png);
+    min-height: 100vh;
+    width: 100%;
+
+}
